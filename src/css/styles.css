@@ -1,10 +1,11 @@
 * {
   box-sizing: border-box;
+  list-style-type: none;
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
-    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+    'Open Sans', 'Helvetica Neue', sans-serif;
   background-color: #fafafa;
   color: #212121;
   line-height: 1.5;
@@ -15,4 +16,27 @@ body {
   padding: 8px;
   max-width: 320px;
   margin-bottom: 16px;
+}
+
+.country-card {
+  display: flex;
+}
+
+h1 {
+  font-size: 45px;
+  margin: 0;
+}
+
+.flag {
+  margin-right: auto;
+  margin-left: 50px;
+}
+
+.description {
+  font-weight: bold;
+}
+
+.country-list {
+  font-size: 20px;
+  font-weight: bold;
 }
