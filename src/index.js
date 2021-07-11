@@ -1,7 +1,7 @@
 import './css/styles.css';
 import fetchCountries from './partials/fetchCountries'
 import debounce from 'lodash.debounce';
-const DEBOUNCE_DELAY = 300;
+const DEBOUNCE_DELAY = 500;
 import countryTmp from './tmp/countryTmp.hbs'
 import countryListTmp from "./tmp/countryListTmp.hbs"
 import {Notify} from "notiflix";
