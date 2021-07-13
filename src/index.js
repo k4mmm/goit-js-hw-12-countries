@@ -27,9 +27,9 @@ function searchCountry(e) {
         } else if (countries.length > 10) {
             Notify.failure('Too many matches found. Please enter a more specific name.')         
         } else if (countries.status === 404) {
-            Notify.failure('Too many matches found. Please enter a more specific name.')  
+            Notify.failure('Invalid name entered. Try again')  
         }
               
-    }).catch(()=>{Notify.failure('Too many matches found. Please enter a more specific name.');})
+    }).catch(()=>{Notify.failure('Invalid name entered. Try again');})
 
 }
